@@ -81,5 +81,8 @@
       "path": "./dist/axios.min.js",
       "threshold": "5kB"
     }
-  ]
+  ],
+  "publishConfig": {
+    "access": "public"
+  }
 }
