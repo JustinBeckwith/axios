@@ -4,7 +4,7 @@
   "description": "Promise based HTTP client for the browser and node.js",
   "main": "index.js",
   "scripts": {
-    "test": "grunt test && bundlesize",
+    "test": "grunt test",
     "start": "node ./sandbox/server.js",
     "build": "NODE_ENV=production grunt build",
     "preversion": "npm test",
